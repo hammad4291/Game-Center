@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.history-entry
+{
+    background-color: red;
+    border: 2px solid royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 10px;
+    font-size: large;
+    height: 50px;
+    color: antiquewhite;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+.history
+{
+    visibility: hidden;
+    height: 80vh;
+    width: 78vw;
+    position: absolute;
+    left: 0%;
+    margin: 5vw 21vh;
+    z-index: 4;
+    border-radius: 1.5rem;
+    border: 4px rgba(203, 23, 23, 0.897) solid;
+    background-color: #007BFF;
+}
+.showHistory
+{
+    position: absolute;
+    bottom: 24vh;
+    right: 17vw;
+    height: 2.2rem;
+    width: 5rem;
+    z-index: 1;
+    background-color: royalblue;
+    border: 2px solid brown;
+    color: wheat;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+.back
+{
+    margin-left: 80%;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    padding: 9px;
+    border-radius: 35%;
+    border: 2px solid rgba(255, 176, 41, 0.927);
+    color: black;
+}
+.back:hover
+{
+    cursor: pointer;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.round-box
+{
+    background-color: red;
+    border: 2px solid royalblue;
+    margin: 15px 10px;
+    font-size: large;
+    height: 50px;
+    color: antiquewhite;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+
+.ticTac {
+    display: inline-block; /* Makes it act like a button */
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button color */
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    height: 75px;
+    width: 75px;
+    align-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: 2px solid red;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .ticTac:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+.container
+{
+    background-color: #e6aa68ff;
+    height: 58vh;
+    width: 29%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    padding: 20px;
+    margin-top: 7px;
+}
+h2{
+    color: #1d1a05ff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(56, 55, 55, 0.913);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+    width: 30%;
+    height: 30%;
+    font-size: 6rem;
+    color: #ca3c25ff;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 5px 20px black;
+    background-color: white;
+}
+.reset
+{
+    background-color: #fffbbdff;
+    margin-top: 30px;
+    height: 7vh;
+    color: rgb(60, 150, 18);
+    width: 10%;
+    font-size: 1rem;
+    font-weight: 750;
+    border-radius: 1rem;
+    border: 5px solid rgba(70, 69, 61, 0.774);
+}
+.msg{
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 221, 129);
+    color: royalblue;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    font-weight: 550;
+}

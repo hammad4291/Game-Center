@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPC game</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="history">
+        <center><h1 style="border-radius: 1rem;"><b>History <span class="back">X</span></b></h1></center>
+        <div class="history-container" style="min-height: 100px; max-height: 80%; width: 100%; background-color: rosybrown; overflow-y: auto;">
+        </div>
+        
+    </div>
+    <button class="show-history">History</button>
+    <a href="index.html" class="ticTac">Tic Tac Toe</a>
+    <h1><i>Rock Paper Scissors Game</i></h1>
+    <div class="choices">
+
+        <div class="choice" id="rock">
+            
+            <img src="rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="scissors.png">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p class="user">USER</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p class="user">COMPUTER</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play To Win!</p>
+    </div>
+    <div class="computer-choice">
+        <img src="" alt="computer choice">
+        <big><b>Computer choice</b></big>
+    </div>  
+</body>
+<script src="app2.js"></script>
+</html>
